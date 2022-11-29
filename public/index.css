@@ -1,6 +1,74 @@
 body {
   margin: 0;
+  padding:0;
   font-family: 'Inter', sans-serif;
 }
 
+.nav {
+  position: fixed;
+  width: 100%;
+  top:0;
 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #21222A;
+  padding: 10px 0px;
+}
+.nav-logo-text {
+  color: #00D8FF;
+}
+.nav-logo {
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+}
+.nav-title {
+  padding-right: 30px;
+
+  color: #DEEBF8;
+  margin-left: 30px !important;
+}
+
+.nav-logo-image {
+  height: 40px;
+}
+
+/*  */
+
+.main {
+  position: absolute;
+  top: 89px;
+  bottom: 0px;
+  width: 100%;
+
+  background-color: #282D35;
+  color: #FFFFFF;
+
+
+
+}
+
+.main-content {
+  padding: 50px;
+}
+
+.list {
+  padding-top: 20px;
+  list-style: none;
+}
+
+.list li {
+  padding-bottom: 5px; 
+}
+
+.list li::before {
+  content: "\2022";
+  color: #61DAFB;
+  font-weight: bold;
+  font-size: 1.5em;
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em;
+}
