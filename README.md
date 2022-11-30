@@ -1,19 +1,18 @@
-#   FIRST REACT PROJECT 
+# First react project
 
-<img src="freecodegram.png" width="50px">
+It is a personal portfolio project from freecodegram exercises.
 
-## freecodegram project
-<br></br>
+## Installation
 
-# HOW TO RUN
-## Available Scripts
+Use the command :
 
-In the project directory, you can run:
+```bash
+npm start
+```
+and the server will start with this front-end project.
 
-### `npm start`
+## Technologies
+Project is created with:
+* React.js
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
